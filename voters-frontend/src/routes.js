@@ -16,12 +16,13 @@
 
 */
 import Index from "./views/Index";
-import Profile from "./views/examples/Profile";
-import Maps from "./views/examples/Maps";
-import Register from "./views/examples/Register";
-import Login from "./views/examples/Login";
-import Tables from "./views/examples/Tables";
-import Icons from "./views/examples/Icons";
+import Profile from "./views/menus/Profile";
+import Maps from "./views/menus/Maps";
+import Register from "./views/menus/Register";
+import Login from "./views/menus/Login";
+import Tables from "./views/menus/Tables";
+import Icons from "./views/menus/Icons";
+import Users from "./views/menus/Users";
 
 var routes = [
   {
@@ -72,6 +73,13 @@ var routes = [
     icon: "ni ni-circle-08 text-pink",
     component: Register,
     layout: "/auth"
+  },
+  {
+    path: "/users",
+    name: "Users",
+    icon: "ni ni-atom text-blue",
+    component: Users,
+    layout: "/admin"
   }
 ];
 export default routes;
