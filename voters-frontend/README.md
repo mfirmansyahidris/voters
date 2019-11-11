@@ -66,7 +66,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-## Template
-This project using **Argon Dashboard React** Template
-more information: https://github.com/creativetimofficial/argon-dashboard-react
